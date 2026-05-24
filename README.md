@@ -1,6 +1,6 @@
-# 🧠 Mini Project 1 — Word Frequency Counter (Core Python)
+Word Frequency Counter (Core Python)
 
-## 📘 Project Overview
+## Project Overview
 This mini-project reads a **text file**, processes its content, and analyzes the frequency of each unique word.  
 It displays:
 - Total number of words  
@@ -11,7 +11,7 @@ The goal is to demonstrate **file handling**, **string processing**, **exception
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 PROJECT-1/
 ├── sample_texts/
 │ └── sample1.txt # example input file
@@ -20,13 +20,13 @@ PROJECT-1/
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 - Python **3.8+**
 - No external libraries needed (uses built-in modules only)
 
 ---
 
-## 🚀 How to Run the Program
+##  How to Run the Program
 1. Open a terminal or command prompt in the `PROJECT-1` folder.  
 2. Run the script:
    python wordfreq.py
@@ -39,16 +39,15 @@ Total word count
 Unique word count
 Top N frequent words (default 10)
 
-🧱 Features Implemented
+Features Implemented
+File input (with retry and error handling)
+Text cleaning (removes punctuation, converts to lowercase)
+Word frequency counting using collections.Counter
+Optional stopword removal
+Optional minimum word length filter
+Option to save results to an output file
 
-✅ File input (with retry and error handling)
-✅ Text cleaning (removes punctuation, converts to lowercase)
-✅ Word frequency counting using collections.Counter
-✅ Optional stopword removal
-✅ Optional minimum word length filter
-✅ Option to save results to an output file
-
-🧠 Concepts Used
+Concepts Used
 
 File handling (open, read, write)
 Regular expressions (re module)
@@ -57,7 +56,7 @@ Functions & user input
 Exception handling (try/except)
 String manipulation
 
-🧩 Optional Improvements
+Optional Improvements
 
 You can extend the project with:
 Export results as CSV file
@@ -65,7 +64,5 @@ Display word cloud visualization (using matplotlib later)
 Ignore numeric tokens
 Process multiple files in a folder
 
-🏁 Author
+Author
 Sripathi Sanjana Reddy
-B.Tech — Artificial Intelligence & Machine Learning
-Mini Project 1 for Internship (Core Python)
